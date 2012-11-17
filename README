@@ -1,0 +1,14 @@
+README
+
+This is a function that takes ina file path as a String and outputs 
+the normalized path. To run the program, 
+
+1) Load the file
+2) Call the function: e.g. - normalize_string(INPUT_STRING_HERE)
+
+
+Example solutions:
+
+foo/./bar will become normalized to foo/bar
+
+foo/bar/../baz will become normalized to foo/baz 
